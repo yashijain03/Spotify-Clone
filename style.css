@@ -14,6 +14,7 @@ body{
     padding: 0.5rem;
 }
 
+/* SETTING THE LAYOUT */
 
 .sidebar{
     background-color: black;
@@ -39,6 +40,7 @@ body{
     height: 72px;
 }
 
+/* SIDEBAR */
 a{
     text-decoration: none;
     color: white;
@@ -141,6 +143,7 @@ a{
     width: fit-content;
 }
 
+/* MAIN CONTENT */
 .sticky-nav{
     position: sticky;
     top: 0;
@@ -176,7 +179,6 @@ a{
         display: none;
     }
 }
-
 
 .card{
     background-color: #232323;
@@ -220,6 +222,8 @@ a{
     opacity: 0.4;
 }
 
+
+/* FOOTER AND MUSIC PLAYER */
 .music-player{
     display:flex;
     align-items: center;
