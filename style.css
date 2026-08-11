@@ -313,3 +313,30 @@ a{
     opacity: 0.5;
     margin-top: 0;
 }
+
+/* CONTROL */
+
+.control i {
+    opacity : 0.5;
+    height: 1rem;
+    margin-right:1.25rem;
+}
+
+.control i:hover{
+    opacity: 1;
+}
+
+.volume-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.volume-bar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 0;
+    width: 0;
+    background: transparent;
+    border: none;
+}
