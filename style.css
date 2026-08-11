@@ -224,11 +224,6 @@ a{
 
 
 /* FOOTER AND MUSIC PLAYER */
-.music-player{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .album{
     width: 25%;
@@ -242,6 +237,7 @@ a{
     width: 25%;
 }
 
+/* Player Control */
 .player-control-icon{
     height: 1rem;
     margin-right: 1.75rem;
@@ -284,6 +280,13 @@ a{
     background-color: #1bd760;
     border-radius: 50%;
     margin-top: -6px;
+}
+
+/* Music detail */
+.music-player{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .album img{
